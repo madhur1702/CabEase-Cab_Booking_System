@@ -1,4 +1,4 @@
-<h1>🚖 CabEase – Cab Booking System</h1>
+ <h1>🚖 CabEase – Cab Booking System</h1>
 
 <p><strong>CabEase</strong> is a simple and user-friendly <strong>Cab Booking System</strong> web application designed for learning and prototyping purposes. It allows <strong>users</strong> to register, log in, book cabs, view ride history, and manage their rides. Meanwhile, <strong>drivers</strong> can register, accept ride requests, and manage ride statuses.</p>
 
@@ -25,31 +25,25 @@
 <p>Follow these steps to run the project locally:</p>
 
 <ol>
-  <li>
-    <strong>Clone the Repository</strong>
+  <li><strong>Clone the Repository</strong>
     <pre><code>git clone https://github.com/madhur1702/CabEase-Cab_Booking_System.git</code></pre>
   </li>
-  <li>
-    <strong>Create the MySQL Database</strong>
+  <li><strong>Create the MySQL Database</strong>
     <ul>
       <li>Create a database named <code>cab_booking</code>.</li>
       <li>Create tables for <code>users</code> and <code>rides</code> based on your system design.</li>
     </ul>
   </li>
-  <li>
-    <strong>Configure Database Connection</strong>
+  <li><strong>Configure Database Connection</strong>
     <ul>
       <li>Edit <code>includes/db.php</code> and update the database credentials as per your local setup (e.g., <code>localhost</code>, <code>root</code>, <code>password</code>).</li>
     </ul>
   </li>
-  <li>
-    <strong>Start a Local PHP Server</strong>
+  <li><strong>Start a Local PHP Server</strong>
     <ul>
       <li>Place the project in your web root folder (e.g., <code>htdocs</code> for XAMPP).</li>
-      <li>
-        Open your browser and navigate to:<br>
-        <code>http://localhost/CabEase/pages/index.php</code>
-      </li>
+      <li>Open your browser and navigate to:<br>
+      <code>http://localhost/CabEase/pages/index.php</code></li>
     </ul>
   </li>
   <li><strong>Enjoy Booking Cabs with CabEase!</strong></li>
