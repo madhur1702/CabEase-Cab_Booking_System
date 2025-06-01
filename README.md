@@ -1,48 +1,71 @@
-🚖 CABEASE – Cab Booking System
-CABEASE is a simple and user-friendly Cab Booking System web application built using HTML, CSS, JavaScript, PHP, and MySQL. It allows users to register and book rides, and drivers to accept and manage them. Designed for learning and prototyping purposes.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CabEase – Cab Booking System</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+    h1, h2, h3 { color: #333; }
+    ul { list-style: none; padding: 0; }
+    li { margin-bottom: 5px; }
+    code { background: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+    pre { background: #f4f4f4; padding: 10px; border-radius: 4px; overflow-x: auto; }
+  </style>
+</head>
+<body>
 
-🛠️ Features
-User & Driver Registration and Login
+  <h1>🚖 CabEase – Cab Booking System</h1>
 
-User Dashboard to:
+  <p><strong>CabEase</strong> is a simple and user-friendly <strong>Cab Booking System</strong> web application designed for learning and prototyping purposes. It allows <strong>users</strong> to register, log in, book cabs, view ride history, and manage their rides. Meanwhile, <strong>drivers</strong> can register, accept ride requests, and manage ride statuses.</p>
 
-Book Cabs
+  <p>This project showcases a <strong>full-stack web application</strong> built using:</p>
+  <ul>
+    <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+    <li><strong>Backend:</strong> PHP</li>
+    <li><strong>Database:</strong> MySQL</li>
+  </ul>
 
-View Ride History
+  <h2>✨ Key Features</h2>
+  <ul>
+    <li>✅ <strong>User & Driver Registration/Login System</strong></li>
+    <li>✅ <strong>User Dashboard</strong> – Book cabs, view and manage ride history</li>
+    <li>✅ <strong>Driver Dashboard</strong> – View, accept, and manage ride requests</li>
+    <li>✅ <strong>Dynamic Ride Booking System</strong> – Seamlessly request and assign rides</li>
+    <li>✅ <strong>Role Management</strong> – Support for both users and drivers in a single platform</li>
+    <li>✅ <strong>Secure Authentication</strong> – Passwords stored securely (using hashing methods like MD5 or bcrypt in PHP)</li>
+    <li>✅ <strong>Responsive Design</strong> – Mobile-friendly layout</li>
+  </ul>
 
-Driver Dashboard to:
+  <h2>🚀 Getting Started – Local Setup</h2>
+  <p>Follow these steps to run the project locally:</p>
+  <ol>
+    <li><strong>Clone the Repository</strong>
+      <pre><code>git clone https://github.com/madhur1702/CabEase-Cab_Booking_System.git</code></pre>
+    </li>
+    <li><strong>Create the MySQL Database</strong>
+      <ul>
+        <li>Create a database named <code>cab_booking</code>.</li>
+        <li>Create tables for <code>users</code> and <code>rides</code> based on your system design.</li>
+      </ul>
+    </li>
+    <li><strong>Configure Database Connection</strong>
+      <ul>
+        <li>Edit <code>includes/db.php</code> and update the database credentials as per your local setup (e.g., <code>localhost</code>, <code>root</code>, <code>password</code>).</li>
+      </ul>
+    </li>
+    <li><strong>Start a Local PHP Server</strong>
+      <ul>
+        <li>Place the project in your web root folder (e.g., <code>htdocs</code> for XAMPP).</li>
+        <li>Open your browser and navigate to: <br>
+        <code>http://localhost/CabEase/pages/index.php</code></li>
+      </ul>
+    </li>
+    <li><strong>Enjoy Booking Cabs with CabEase!</strong></li>
+  </ol>
 
-View and Accept Ride Requests
+  <h2>🤝 Contributing</h2>
+  <p>This project is open for learning and improvement! If you'd like to contribute, feel free to fork the repository, submit pull requests, or suggest improvements via issues.</p>
 
-Track Completed Rides
-
-Dynamic Ride Booking System
-
-Two-Role Support: Users and Drivers (managed via one users table)
-
-Database Integrated: Uses MySQL (cab_booking)
-
-
-
-🚀 Getting Started
-Clone this repository
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/CABEASE.git
-Create the database
-
-Name: cab_booking
-
-Create the tables users and rides as per above schema.
-
-Set up local server
-
-Place the project in htdocs/ (XAMPP) or your web root.
-
-Configure database credentials in includes/db.php.
-
-Run it
-
-Visit http://localhost/CabEase/pages/index.php in your browser.
+</body>
+</html>
