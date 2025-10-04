@@ -1,4 +1,4 @@
-#<center> 🚖 CabEase – Cab Booking System</center>
+# 🚖 CabEase – Cab Booking System
 
 <p align="center">
   <img src="https://img.shields.io/badge/Made%20with-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
